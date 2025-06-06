@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Init
+    // Init 
     $('.image-section').hide();
     $('.loader').hide();
     $('#result').hide();
@@ -24,7 +24,7 @@ $(document).ready(function () {
         readURL(this);
     });
 
-    // Predict
+    // Predict the image
     $('#btn-predict').click(function () {
         var form_data = new FormData($('#upload-file')[0]);
 

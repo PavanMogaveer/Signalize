@@ -326,6 +326,7 @@ def stop():
     
     return redirect('/')
 
+#main function to run the app
 if __name__ == '__main__':
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
