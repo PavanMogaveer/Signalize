@@ -1,0 +1,50 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+
+#datasets
+/Dataset
+
+#model 
+model.h5
+
+
+
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+venv/
+.env/
+
+# Build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.env
+
+# Compiled files
+*.class
+*.o
+*.out
+
+# Personal settings
+*.swp
+*.swo
+
+# Git folder settings (just in case)
+.git/
+
+# Coverage/test reports
+coverage/
+*.lcov

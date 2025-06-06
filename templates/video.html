@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<!-- Live webcam stream -->
+<img src="{{ url_for('video_feed') }}" width="640" height="480" style="border: 2px solid #000;">
+
+<div style="margin-top: 20px;">
+    <a href="{{ url_for('stop') }}" class="btn btn-danger btn-lg">Stop Prediction</a>
+</div>
+
+{% endblock %}
